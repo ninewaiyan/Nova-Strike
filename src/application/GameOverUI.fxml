@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" stylesheets="@gameover_style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GameOverController">
+   <children>
+      
+      <Label alignment="CENTER" layoutY="6.0" prefHeight="130.0" prefWidth="700.0" stylesheets="@gameover_style.css" text="Game Over!" textFill="#e10606">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="184.0" layoutY="197.0" prefHeight="27.0" prefWidth="169.0" styleClass="result" stylesheets="@gameover_style.css" text="Kills" textFill="#eae4e4">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbBulletUsed" alignment="CENTER" layoutX="380.0" layoutY="242.0" prefHeight="20.0" prefWidth="100.0" stylesheets="@gameover_style.css" text="0" textFill="#eae4e4">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="167.0" layoutY="242.0" prefHeight="27.0" prefWidth="200.0" styleClass="result" stylesheets="@gameover_style.css" text="Bullet Used" textFill="#eae4e4">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbKill" alignment="CENTER" layoutX="379.0" layoutY="197.0" prefHeight="20.0" prefWidth="100.0" styleClass="result" stylesheets="@gameover_style.css" text="0" textFill="#eae4e4">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="172.0" layoutY="283.0" prefHeight="27.0" prefWidth="190.0" styleClass="result" stylesheets="@gameover_style.css" text="Skill" textFill="#eae4e4">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbSkill" alignment="CENTER" layoutX="339.0" layoutY="283.0" prefHeight="27.0" prefWidth="297.0" stylesheets="@gameover_style.css" text="0 per kills" textFill="#eae4e4">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="67.0" prefHeight="50.0" prefWidth="565.0" stylesheets="@gameover_style.css" text="Nova Strike" textFill="#f2f0f0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="289.0" layoutY="381.0" mnemonicParsing="false" onAction="#gameOverMenu" prefHeight="20.0" prefWidth="100.0" text="Menu">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="434.0" layoutY="381.0" mnemonicParsing="false" onAction="#gameOverStart" prefHeight="20.0" prefWidth="100.0" text="Start">
+         <font>
+            <Font size="6.0" />
+         </font>
+      </Button>
+      <Button layoutX="148.0" layoutY="381.0" mnemonicParsing="false" onAction="#processExit" prefHeight="20.0" prefWidth="100.0" text="Exit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="166.0" layoutY="324.0" prefHeight="27.0" prefWidth="190.0" stylesheets="@gameover_style.css" text="Time" textFill="#eae4e4">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbTime" alignment="CENTER" layoutX="382.0" layoutY="324.0" prefHeight="27.0" prefWidth="181.0" stylesheets="@gameover_style.css" text="00:00:00" textFill="#eae4e4">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblRank" alignment="CENTER" layoutX="76.0" layoutY="109.0" prefHeight="50.0" prefWidth="523.0" stylesheets="@gameover_style.css" text="Ranks" textFill="#e51ed6">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

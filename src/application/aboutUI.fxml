@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@AboutUI.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AboutController">
+   <children>
+      <Label layoutX="20.0" layoutY="14.0" prefHeight="34.0" prefWidth="628.0" text="About Us" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font></Label>
+      <Label layoutX="73.0" layoutY="227.0" prefHeight="34.0" prefWidth="628.0" text="Developers - Mr.Nine Wai Yan (Leader),Mr. Min Thu Htun , Ms.Nwe Zar Win" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="268.0" prefHeight="34.0" prefWidth="628.0" text="Music  and Sound - https://pixabay.com, www.youtube.com" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="308.0" prefHeight="34.0" prefWidth="628.0" text="Game Character Image - From Internet " textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="387.0" prefHeight="34.0" prefWidth="686.0" text="We developed this project for JavaSE  Final project  of  Our Institute ,Host Myanmar Institute(HMI)." textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="426.0" prefHeight="34.0" prefWidth="628.0" text="Special Thank , Mr.Min Thu Kyaw (Lecturer),Mrs.Khaing Shwe Win ( Principal Of HMI )," textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="467.0" prefHeight="34.0" prefWidth="628.0" text="Mrs.Chit Hsu Hlaing(Class Teacher), Our Senior Game Developers (Glaxy Shooter Team)." textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="411.0" layoutY="549.0" prefHeight="34.0" prefWidth="402.0" text="novastrikegamedevelopment@gmail.com" textFill="#72c8f4">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="347.0" prefHeight="34.0" prefWidth="628.0" text="Credit - Almas Baimagambetov - www.youtube.com/@AlmasB0 " textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="546.0" mnemonicParsing="false" onAction="#processBack" prefHeight="40.0" prefWidth="89.0" text="Back" />
+      <ImageView fitHeight="93.0" fitWidth="104.0" layoutX="130.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../developer/nwy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="104.0" layoutX="301.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../developer/mth.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="104.0" layoutX="491.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../developer/nzw.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="124.0" layoutY="185.0" prefHeight="27.0" prefWidth="143.0" text="Mr.Nine Wai Yan" textFill="#fdf9f9" />
+      <Label layoutX="491.0" layoutY="185.0" prefHeight="27.0" prefWidth="143.0" text="Ms. Nwe Zar Win" textFill="#fdf9f9" />
+      <Label layoutX="301.0" layoutY="185.0" prefHeight="27.0" prefWidth="143.0" text="Mr.Min Thu Htun" textFill="#fdf9f9" />
+      <ImageView fitHeight="54.0" fitWidth="66.0" layoutX="343.0" layoutY="539.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logo/contact.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

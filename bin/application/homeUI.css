@@ -1,0 +1,31 @@
+.root {
+    -fx-background-image: url("backgroundA.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+
+
+.label {
+  -fx-font-family: "space age";
+  
+}
+
+/* Common button style */
+.button {
+    -fx-background-color: #4357D5; /* Dark grayish-purple */
+    -fx-text-fill: #FFFFFF; /* White text */
+    -fx-font-size: 18px;
+    -fx-font-family: "space age";
+    -fx-background-radius: 5px; /* Rounded corners */
+    
+     /* Padding */
+}
+
+.button:hover {
+    -fx-background-color: #333333; /* Lighter gray on hover */
+}
+
+.button:pressed {
+    -fx-background-color: #4357D5; /* Original color when pressed */
+}

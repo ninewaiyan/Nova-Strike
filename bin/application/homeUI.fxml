@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" stylesheets="@homeUI.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HomeUIController">
+   <children>
+      <Label alignment="CENTER" layoutX="71.0" layoutY="14.0" prefHeight="74.0" prefWidth="442.0" text="Nova Strike" textFill="WHITE">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Button layoutX="53.0" layoutY="107.0" mnemonicParsing="false" onAction="#processGameStart" prefHeight="40.0" prefWidth="200.0" styleClass="space-button" stylesheets="@homeUI.css" text="Start">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button layoutX="53.0" layoutY="165.0" mnemonicParsing="false" onAction="#processMenu" prefHeight="40.0" prefWidth="200.0" styleClass="space-button" stylesheets="@homeUI.css" text="Menu">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button layoutX="53.0" layoutY="278.0" mnemonicParsing="false" onAction="#processHelp" prefHeight="40.0" prefWidth="200.0" styleClass="space-button" stylesheets="@homeUI.css" text="Help">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button layoutX="53.0" layoutY="336.0" mnemonicParsing="false" onAction="#processExit" prefHeight="40.0" prefWidth="200.0" styleClass="space-button" stylesheets="@homeUI.css" text="Exit">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button layoutX="53.0" layoutY="221.0" mnemonicParsing="false" onAction="#processPeaceMode" prefHeight="40.0" prefWidth="200.0" styleClass="space-button" stylesheets="@homeUI.css" text="Peace Mode">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="333.0" fitWidth="506.0" layoutX="237.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logo/ship.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="35.0" layoutX="14.0" layoutY="404.0" onMouseClicked="#processAbout" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logo/i.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

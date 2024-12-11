@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="449.0" prefWidth="614.0" stylesheets="@ControlUI.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControlController">
+   <children>
+      <Button layoutX="172.0" layoutY="154.0" mnemonicParsing="false" onAction="#s" prefHeight="30.0" prefWidth="40.0" styleClass="single" stylesheets="@ControlUI.css" text="S" />
+      <Button layoutX="125.0" layoutY="106.0" mnemonicParsing="false" onAction="#a" prefHeight="30.0" prefWidth="40.0" styleClass="single" stylesheets="@ControlUI.css" text="A" />
+      <Button layoutX="221.0" layoutY="106.0" mnemonicParsing="false" onAction="#d" prefHeight="30.0" prefWidth="40.0" styleClass="single" stylesheets="@ControlUI.css" text="D" />
+      <Button layoutX="172.0" layoutY="58.0" mnemonicParsing="false" onAction="#w" prefHeight="30.0" prefWidth="40.0" styleClass="single" stylesheets="@ControlUI.css" text="W" />
+      <Button layoutX="171.0" layoutY="338.0" mnemonicParsing="false" onAction="#k" prefHeight="30.0" prefWidth="40.0" styleClass="single" stylesheets="@ControlUI.css" text="K" />
+      <Button layoutX="124.0" layoutY="290.0" mnemonicParsing="false" onAction="#j" prefHeight="30.0" prefWidth="40.0" styleClass="single" stylesheets="@ControlUI.css" text="J" />
+      <Button layoutX="171.0" layoutY="242.0" mnemonicParsing="false" onAction="#i" prefHeight="30.0" prefWidth="40.0" styleClass="single" stylesheets="@ControlUI.css" text="I" />
+      <Button layoutX="21.0" layoutY="386.0" mnemonicParsing="false" onAction="#backAction" styleClass="back" stylesheets="@ControlUI.css" text="Back" />
+      <Button layoutX="56.0" layoutY="58.0" mnemonicParsing="false" onAction="#aPlusW" prefHeight="30.0" prefWidth="50.0" styleClass="double" stylesheets="@ControlUI.css" text="A+W" />
+      <Button layoutX="272.0" layoutY="59.0" mnemonicParsing="false" onAction="#wPlusD" prefHeight="30.0" prefWidth="50.0" styleClass="double" stylesheets="@ControlUI.css" text="W+D" />
+      <Button layoutX="272.0" layoutY="152.0" mnemonicParsing="false" onAction="#dPlusS" prefHeight="30.0" prefWidth="50.0" styleClass="double" stylesheets="@ControlUI.css" text="D+S" />
+      <Button layoutX="60.0" layoutY="241.0" mnemonicParsing="false" onAction="#jPlusI" prefHeight="30.0" prefWidth="50.0" styleClass="double" stylesheets="@ControlUI.css" text="J+I" />
+      <Button layoutX="276.0" layoutY="337.0" mnemonicParsing="false" onAction="#kPlusL" prefHeight="30.0" prefWidth="50.0" styleClass="double" stylesheets="@ControlUI.css" text="K+L" />
+      <Button layoutX="276.0" layoutY="241.0" mnemonicParsing="false" onAction="#iPlusL" prefHeight="30.0" prefWidth="50.0" styleClass="double" stylesheets="@ControlUI.css" text="I+L" />
+      <Button layoutX="60.0" layoutY="337.0" mnemonicParsing="false" onAction="#jPlusK" prefHeight="30.0" prefWidth="50.0" styleClass="double" stylesheets="@ControlUI.css" text="J+K" />
+      <Button layoutX="56.0" layoutY="154.0" mnemonicParsing="false" onAction="#aPlusS" prefHeight="30.0" prefWidth="50.0" styleClass="double" stylesheets="@ControlUI.css" text="A+S" />
+      
+      <Button layoutX="220.0" layoutY="290.0" mnemonicParsing="false" onAction="#l" prefHeight="30.0" prefWidth="40.0" styleClass="single" stylesheets="@ControlUI.css" text="L" />
+      <ImageView fx:id="airplaneRotate" fitHeight="123.0" fitWidth="147.0" layoutX="405.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/helpController/player.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bulletImage" fitHeight="103.0" fitWidth="109.0" layoutX="415.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/helpController/bulletShoot.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="398.0" layoutY="21.0" prefHeight="23.0" prefWidth="148.0" text="Movement Direction" textFill="#fdf5f5">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="410.0" layoutY="188.0" prefHeight="23.0" prefWidth="148.0" text="Shooting Direction" textFill="#fdf5f5">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

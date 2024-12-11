@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="681.0" stylesheets="@history.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SoundSettingController">
+   <children>
+      <Label alignment="CENTER" layoutX="91.0" layoutY="14.0" prefHeight="75.0" prefWidth="521.0" text="Nova Strike" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="20.0" layoutY="426.0" mnemonicParsing="false" onAction="#processBack" prefHeight="40.0" prefWidth="76.0" styleClass="backDesign" stylesheets="@history.css" text="Back" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="button1" layoutX="58.0" layoutY="123.0" mnemonicParsing="false" onAction="#processOne" prefHeight="40.0" prefWidth="200.0" styleClass="backDesign" stylesheets="@history.css" text="Theme Sond" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="58.0" layoutY="180.0" mnemonicParsing="false" onAction="#processTwo" prefHeight="40.0" prefWidth="200.0" styleClass="backDesign" stylesheets="@history.css" text="without me" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button3" layoutX="58.0" layoutY="239.0" mnemonicParsing="false" onAction="#processThree" prefHeight="40.0" prefWidth="200.0" styleClass="backDesign" stylesheets="@history.css" text="loose yourself" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button4" layoutX="58.0" layoutY="292.0" mnemonicParsing="false" onAction="#processFour" prefHeight="40.0" prefWidth="200.0" styleClass="backDesign" stylesheets="@history.css" text="still DRE" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="bgonoff" layoutX="505.0" layoutY="150.0" mnemonicParsing="false" onAction="#processBGSonoff" prefHeight="23.0" prefWidth="95.0" styleClass="backDesign" stylesheets="@history.css" text="ON" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="514.0" layoutY="249.0" prefHeight="56.0" prefWidth="153.0" text="Button Sound" textFill="#fdf5f5" />
+      <Button fx:id="button5" layoutX="58.0" layoutY="345.0" mnemonicParsing="false" onAction="#processFive" prefHeight="40.0" prefWidth="200.0" styleClass="backDesign" stylesheets="@history.css" text="bad guy" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button6" layoutX="280.0" layoutY="123.0" mnemonicParsing="false" onAction="#processSix" prefHeight="40.0" prefWidth="200.0" styleClass="backDesign" stylesheets="@history.css" text="smater" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button7" layoutX="280.0" layoutY="181.0" mnemonicParsing="false" onAction="#processSeven" prefHeight="40.0" prefWidth="200.0" styleClass="backDesign" stylesheets="@history.css" text="what is love" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button8" layoutX="280.0" layoutY="239.0" mnemonicParsing="false" onAction="#processEight" prefHeight="40.0" prefWidth="200.0" styleClass="backDesign" stylesheets="@history.css" text="sky full of stars" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button9" layoutX="280.0" layoutY="292.0" mnemonicParsing="false" onAction="#processNine" prefHeight="40.0" prefWidth="200.0" styleClass="backDesign" stylesheets="@history.css" text="don't impress me" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button10" layoutX="280.0" layoutY="345.0" mnemonicParsing="false" onAction="#processTen" prefHeight="40.0" prefWidth="200.0" styleClass="backDesign" stylesheets="@history.css" text="kyayzuuparkwal" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="bsonoff" layoutX="505.0" layoutY="229.0" mnemonicParsing="false" onAction="#processBSonoff" prefHeight="23.0" prefWidth="95.0" styleClass="backDesign" stylesheets="@history.css" text="ON" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="508.0" layoutY="165.0" prefHeight="56.0" prefWidth="192.0" text="background Sound" textFill="#fdf5f5" />
+      <Button fx:id="gsonoff" layoutX="505.0" layoutY="302.0" mnemonicParsing="false" onAction="#processGSonoff" prefHeight="23.0" prefWidth="95.0" styleClass="backDesign" stylesheets="@history.css" text="ON" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="511.0" layoutY="322.0" prefHeight="56.0" prefWidth="145.0" text="Game Sound" textFill="#fdf5f5" />
+   </children>
+</AnchorPane>

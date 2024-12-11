@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" stylesheets="@helpUI.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HelpUIController">
+   <children>
+      <Button layoutX="43.0" layoutY="345.0" mnemonicParsing="false" onAction="#processBack" prefHeight="40.0" prefWidth="89.0" text="Back" />
+      <Button layoutX="438.0" layoutY="345.0" mnemonicParsing="false" onAction="#processController" prefHeight="40.0" prefWidth="216.0" text="Controllers">
+         <font>
+            <Font size="11.0" />
+         </font></Button>
+      <Label layoutX="14.0" layoutY="22.0" prefHeight="38.0" prefWidth="319.0" text="How to Play" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="81.0" prefHeight="26.0" prefWidth="567.0" text="- At the start, player already have 50 bullets and 20 hit points." textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="115.0" prefHeight="26.0" prefWidth="567.0" text="- Once the player got shot by enemy's bullet, 1 hit point loses." textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="150.0" prefHeight="26.0" prefWidth="567.0" text="- The enemy will explode by getting hit with player's bullet." textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="186.0" prefHeight="26.0" prefWidth="567.0" text="- Then, player can gain bullets by taking bullet supplies ." textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="219.0" prefHeight="26.0" prefWidth="567.0" text="- And can gain hit points by taking hit point support boxes." textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="253.0" prefHeight="26.0" prefWidth="567.0" text="- The game will be paused &amp; played when the player press 'P' key." textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="289.0" prefHeight="26.0" prefWidth="567.0" text="- When the game is paused, press 'Y' to terminate the game." textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="416.0" fitWidth="279.0" layoutX="421.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logo/space.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

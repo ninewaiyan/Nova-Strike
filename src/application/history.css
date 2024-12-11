@@ -1,0 +1,52 @@
+/* styles.css */
+.root {
+    -fx-background-image: url("backgroundA.jpg");
+    
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+
+	 
+
+
+.label {
+   -fx-font-family: "space age", sans-serif;
+   
+}
+
+/* Common button style */
+.prev_next {
+    -fx-background-color: #4357D5; /* Dark grayish-purple */
+    -fx-text-fill: #ffffff; /* White text */
+    -fx-font-size: 10px;
+    -fx-font-family: "space age", sans-serif;
+    -fx-background-radius: 50px; /* Rounded corners */
+    -fx-border-radius: 5px;
+    -fx-padding: 10px 20px; /* Padding */
+}
+
+.backDesign {
+    -fx-background-color: #4357D5; /* Dark grayish-purple */
+    -fx-font-family: "space age", sans-serif;
+    -fx-background-radius: 5px; /* Rounded corners */
+}
+
+.button:hover {
+    -fx-background-color: #333333; /* Lighter gray on hover */
+}
+
+.button:pressed {
+    -fx-background-color: #4357D5; /* Original color when pressed */
+}
+
+/* Green button style */
+.green-button {
+    -fx-background-color: green;
+    -fx-text-fill: white;
+}
+/* Red button style */
+.red-button {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}

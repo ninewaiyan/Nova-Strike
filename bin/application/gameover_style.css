@@ -1,0 +1,35 @@
+.root {
+    -fx-background-image: url("backgroundA.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+
+ .result{
+ 	-fx-font-family: "Comic Sans MS", sans-serif;
+ }
+.label {
+	-fx-font-family: "space age", sans-serif;
+	
+}
+
+
+/* Common button style */
+.button {
+    -fx-background-color: #4357D5; /* Dark grayish-purple */
+    -fx-text-fill: #ffffff; /* White text */
+    -fx-font-size: 12px;
+    -fx-font-family: "space age", sans-serif;
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-radius: 5px;
+    -fx-padding: 10px 20px; /* Padding */
+}
+
+.button:hover {
+    -fx-background-color: #333333; /* Lighter gray on hover */
+}
+
+.button:pressed {
+    -fx-background-color: #4357D5; /* Original color when pressed */
+}
+
